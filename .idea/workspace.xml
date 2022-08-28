@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c57ca4-f3e2-4099-a447-b616f4f85e79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeliveryWriter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/CalculatingFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuEdit/MenuEdit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuEdit/Undo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuFile/MenuFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuFile/New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuHelp/MenuHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuOptions/MenuOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/TextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/TextFieldPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/MenuBar/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b4c57ca4-f3e2-4099-a447-b616f4f85e79" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,11 +56,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661678032589</updated>
-      <workItem from="1661678035064" duration="11788000" />
+      <workItem from="1661678035064" duration="12368000" />
     </task>
+    <task id="LOCAL-00001" summary="StartingProject">
+      <created>1661691772590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661691772590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="StartingProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="StartingProject" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
