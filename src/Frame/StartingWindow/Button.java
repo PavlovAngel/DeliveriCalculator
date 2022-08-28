@@ -32,6 +32,7 @@ public class Button extends JButton implements ActionListener, KeyListener {
             CalculatingFrame.openWindow();
             DeliveryNoteTextField.deliveryNoteTextField.setText("Delivery 2028");
             UrlTextField.urlTextField.setText("");
+            // TODO: 8/28/2022 Set delivery note number to delivery text field
         }
     }
 

@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 public class WebSite {
     private static boolean isRealUrl = true;
     private static String htmlElementOrderQuantity;
-    public static String deliveryNoteUrl = "https://www.abv.bg/";
+    public static String deliveryNoteUrl = "https://www.grid.news/"; //get text from url text field
     private String detailInfoUrl;
     public String htmlElementLine;
     private Document document;

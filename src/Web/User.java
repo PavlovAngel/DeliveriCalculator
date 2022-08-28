@@ -16,7 +16,7 @@ public class User {
     private static final String login = "shipping:shipping";
     private static final WebSite site = new WebSite();
 
-
+    // TODO: 8/28/2022 Try to login 192.168.1.0 and print html
     public static void loginToSite() throws IOException {
         try {
             String base64login = new String(Base64.encodeBase64(login.getBytes()));
@@ -38,12 +38,15 @@ public class User {
 
         }
     }
+//Copy lite to clipboard
 
     /*public static void write() {
         StringSelection stringSelection = new StringSelection(TextFieldPanel.textField.getText());
         Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
         clipboard.setContents(stringSelection, null);
     }*/
+
+    //Find order quantity and material number from Html Line
 
     /* public static String getOrderQuantity() throws IOException {
          int lines = impulse.getDocument()
@@ -79,7 +82,7 @@ public class User {
          return null;
      }*/
     public static void printHtml() {
-        System.out.println(site.getDocument());
+        System.out.println(site.getDocument().body().getElementsByClass("margin-sm-bottom article-hero__subheadline"));
     }
 
 }
