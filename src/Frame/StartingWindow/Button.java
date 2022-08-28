@@ -1,6 +1,7 @@
 package Frame.StartingWindow;
 
 import Frame.CalculatingWindow.CalculatingFrame;
+import Frame.CalculatingWindow.DeliveryNoteTextField;
 
 import javax.swing.*;
 import java.awt.*;
@@ -24,8 +25,12 @@ public class Button extends JButton implements ActionListener, KeyListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        StartingFrame.closeWindow();
-        CalculatingFrame.openWindow();
+        if (e.getSource() == this) {
+            StartingFrame.closeWindow();
+            CalculatingFrame.openWindow();
+            DeliveryNoteTextField.deliveryNoteTextField.setText("Delivery 2028");
+            UrlTextField.urlTextField.setText("");
+        }
     }
 
 

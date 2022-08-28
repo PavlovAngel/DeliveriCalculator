@@ -1,6 +1,7 @@
 package Frame.CalculatingWindow.MenuBar.MenuFile;
 
 import Frame.CalculatingWindow.CalculatingFrame;
+import Frame.CalculatingWindow.DeliveryNoteTextField;
 import Frame.StartingWindow.StartingFrame;
 
 import javax.swing.*;
@@ -18,6 +19,7 @@ public class New extends JMenuItem implements ActionListener {
         if (e.getSource() == this) {
             StartingFrame.startWindow();
             CalculatingFrame.closeWindow();
+            DeliveryNoteTextField.deliveryNoteTextField.setText("");
         }
     }
 }

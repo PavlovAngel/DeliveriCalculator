@@ -1,7 +1,5 @@
 package Frame.StartingWindow;
 
-import Frame.StartingWindow.MenuBar.File;
-
 import javax.swing.*;
 
 public class StartingFrame extends JFrame {
@@ -10,9 +8,12 @@ public class StartingFrame extends JFrame {
     public StartingFrame() {
         this.setBounds(100, 100, 300, 300);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        this.setVisible(true);
+        this.setLayout(null);
         this.add(new Button());
-        this.add(new File());
+        this.add(UrlTextField.urlTextField);
+        this.setVisible(true);
+        this.setAlwaysOnTop(true);
+        this.setResizable(false);
     }
 
     public static void startWindow() {

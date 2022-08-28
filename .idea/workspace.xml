@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c57ca4-f3e2-4099-a447-b616f4f85e79" name="Changes" comment="" />
+    <list default="true" id="b4c57ca4-f3e2-4099-a447-b616f4f85e79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/UrlTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/CalculatingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/CalculatingFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/DeliveryNoteTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/TextFieldPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/MenuBar/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,31 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DeliveryCalculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="DeliveryCalculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="DeliveryCalculator" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661678032589</updated>
       <workItem from="1661678035064" duration="12368000" />
+      <workItem from="1661697169186" duration="2232000" />
     </task>
     <task id="LOCAL-00001" summary="StartingProject">
       <created>1661691772590</created>

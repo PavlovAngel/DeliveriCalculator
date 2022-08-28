@@ -10,7 +10,7 @@ public class CalculatingFrame extends JFrame {
 
     public CalculatingFrame() {
 
-        TextFieldPanel textFieldPanel = new TextFieldPanel();
+
         Button button = new Button();
 
         // BoxChoiceMenu boxChoiceMenu = new BoxChoiceMenu();
@@ -33,7 +33,7 @@ public class CalculatingFrame extends JFrame {
         this.add(weight);
         this.add(boxes);
         this.add(cmrBoxes);
-        this.add(textFieldPanel);
+        this.add(DeliveryNoteTextField.deliveryNoteTextField);
         //  this.add(boxChoiceMenu);
         this.add(button);
         this.setJMenuBar(new MenuBar());
