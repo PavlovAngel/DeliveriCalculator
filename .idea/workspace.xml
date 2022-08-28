@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c57ca4-f3e2-4099-a447-b616f4f85e79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/UrlTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/CalculatingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/CalculatingFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/DeliveryNoteTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/TextFieldPanel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/MenuBar/File.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661678032589</updated>
       <workItem from="1661678035064" duration="12368000" />
-      <workItem from="1661697169186" duration="2232000" />
+      <workItem from="1661697169186" duration="2553000" />
     </task>
     <task id="LOCAL-00001" summary="StartingProject">
       <created>1661691772590</created>
@@ -75,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661691772590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new version">
+      <created>1661704592980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661704592981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,7 +84,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="StartingProject" />
-    <option name="LAST_COMMIT_MESSAGE" value="StartingProject" />
+    <MESSAGE value="new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
