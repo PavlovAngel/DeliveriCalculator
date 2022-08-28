@@ -3,6 +3,7 @@ package Frame.CalculatingWindow.MenuBar.MenuFile;
 import Frame.CalculatingWindow.CalculatingFrame;
 import Frame.CalculatingWindow.DeliveryNoteTextField;
 import Frame.StartingWindow.StartingFrame;
+import Frame.StartingWindow.UrlTextField;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -20,6 +21,7 @@ public class New extends JMenuItem implements ActionListener {
             StartingFrame.startWindow();
             CalculatingFrame.closeWindow();
             DeliveryNoteTextField.deliveryNoteTextField.setText("");
+            UrlTextField.urlTextField.setText("Enter URL here");
         }
     }
 }

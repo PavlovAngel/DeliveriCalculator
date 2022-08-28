@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c57ca4-f3e2-4099-a447-b616f4f85e79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_15_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Web/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Web/WebSite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DeliveryCalculator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/CalculatingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/CalculatingFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuFile/New.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/MenuBar/MenuFile/New.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/UrlTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/UrlTextField.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661678032589</updated>
       <workItem from="1661678035064" duration="12368000" />
-      <workItem from="1661697169186" duration="4469000" />
+      <workItem from="1661697169186" duration="6424000" />
     </task>
     <task id="LOCAL-00001" summary="StartingProject">
       <created>1661691772590</created>
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661705006115</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updates">
+      <created>1661706875024</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661706875024</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

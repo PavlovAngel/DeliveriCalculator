@@ -15,10 +15,10 @@ public class Button extends JButton implements ActionListener, KeyListener {
 
     Button() {
         this.setText("Click");
-        this.setSize(100, 68);
-        this.setLocation(300, 0);
+        this.setSize(98, 73);
+        this.setLocation(297, -2);
         this.setBorderPainted(true);
-        this.setBackground(new Color(255, 255, 255));
+        this.setBackground(new Color(218, 218, 218));
         this.setForeground(new Color(0, 0, 0));
         this.setFocusable(false);
         this.addActionListener(this);

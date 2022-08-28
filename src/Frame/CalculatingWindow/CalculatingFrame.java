@@ -29,7 +29,7 @@ public class CalculatingFrame extends JFrame {
         this.setSize(250, 150);
         this.getContentPane().setBackground(new Color(150, 148, 148));
         this.setTitle("Shipping");
-        this.setLocation(800, 100);
+        this.setLocation(1200, 300);
         this.add(weight);
         this.add(boxes);
         this.add(cmrBoxes);
