@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c57ca4-f3e2-4099-a447-b616f4f85e79" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/StartingWindow/StartingFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Web/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Web/WebSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeliveryCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DeliveryCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frame/CalculatingWindow/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Frame/CalculatingWindow/Button.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Downloads/commons-codec-1.15/commons-codec-1.15.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -60,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661678032589</updated>
       <workItem from="1661678035064" duration="12368000" />
-      <workItem from="1661697169186" duration="2553000" />
+      <workItem from="1661697169186" duration="4469000" />
     </task>
     <task id="LOCAL-00001" summary="StartingProject">
       <created>1661691772590</created>
@@ -76,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661704592981</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updates">
+      <created>1661705006115</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661705006115</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +102,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="StartingProject" />
     <MESSAGE value="new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="new version" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

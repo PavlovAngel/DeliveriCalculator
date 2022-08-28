@@ -1,10 +1,13 @@
 package Frame.CalculatingWindow;
 
 
+import Web.User;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
 public class Button extends JButton implements ActionListener {
 
@@ -23,7 +26,12 @@ public class Button extends JButton implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == this) {
-
+            try {
+                User.loginToSite();
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+            User.printHtml();
 
         }
     }
