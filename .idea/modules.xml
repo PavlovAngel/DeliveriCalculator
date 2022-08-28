@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DeliveryWriter.iml" filepath="$PROJECT_DIR$/DeliveryWriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeliveryCalculator.iml" filepath="$PROJECT_DIR$/DeliveryCalculator.iml" />
     </modules>
   </component>
 </project>
