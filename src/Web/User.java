@@ -82,7 +82,7 @@ public class User {
          return null;
      }*/
     public static void printHtml() {
-        System.out.println(site.getDocument().body().getElementsByClass("margin-sm-bottom article-hero__subheadline"));
+        System.out.println(site.getDocument().body());
     }
 
 }
