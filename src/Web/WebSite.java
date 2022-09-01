@@ -1,11 +1,13 @@
 package Web;
 
+import Frame.StartingWindow.UrlTextField;
 import org.jsoup.nodes.Document;
 
 public class WebSite {
     private static boolean isRealUrl = true;
     private static String htmlElementOrderQuantity;
-    public static String deliveryNoteUrl = "http://192.168.0.57:3000/shipping/view/KimP93jJfF"; //get text from url text field
+    public static String url = UrlTextField.urlTextField.getText().substring(38); //get text from url text field
+    public static String deliveryNoteUrl = "http://192.168.0.57:3000/shipping/edit" + url;
     private String detailInfoUrl;
     public String htmlElementLine;
     private Document document;

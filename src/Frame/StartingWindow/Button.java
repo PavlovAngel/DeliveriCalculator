@@ -2,6 +2,8 @@ package Frame.StartingWindow;
 
 import Frame.CalculatingWindow.CalculatingFrame;
 import Frame.CalculatingWindow.DeliveryNoteTextField;
+import Web.User;
+import Web.WebSite;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.IOException;
 
 public class Button extends JButton implements ActionListener, KeyListener {
     public static Button button = new Button();
@@ -30,7 +33,15 @@ public class Button extends JButton implements ActionListener, KeyListener {
         if (e.getSource() == this) {
             StartingFrame.closeWindow();
             CalculatingFrame.openWindow();
-            DeliveryNoteTextField.deliveryNoteTextField.setText("Delivery 2028");
+            try {
+                User.loginToSite();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+            WebSite.deliveryNoteUrl = UrlTextField.urlTextField.getText();
+            DeliveryNoteTextField.deliveryNoteTextField.setText(User.site.getDocument()
+                    .getElementsByClass("mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-8-tablet")
+                    .text());
             UrlTextField.urlTextField.setText("");
             // TODO: 8/28/2022 Set delivery note number to delivery text field
         }

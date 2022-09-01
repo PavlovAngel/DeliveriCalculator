@@ -14,7 +14,7 @@ import java.io.IOException;
 public class User {
     User user = new User();
     private static final String login = "shipping:shipping";
-    private static final WebSite site = new WebSite();
+    public static final WebSite site = new WebSite();
 
     // TODO: 8/28/2022 Try to login 192.168.1.0 and print html
     public static void loginToSite() throws IOException {
@@ -82,7 +82,7 @@ public class User {
          return null;
      }*/
     public static void printHtml() {
-        System.out.println(site.getDocument().body());
+
     }
 
 }

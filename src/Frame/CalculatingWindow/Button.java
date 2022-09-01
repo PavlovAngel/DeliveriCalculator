@@ -2,6 +2,7 @@ package Frame.CalculatingWindow;
 
 
 import Web.User;
+import Web.WebSite;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,6 +33,8 @@ public class Button extends JButton implements ActionListener {
                 throw new RuntimeException(ex);
             }
             User.printHtml();
+            System.out.println(User.site.getDocument()
+                    .getElementsByClass("mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-8-tablet").text());
 
         }
     }
